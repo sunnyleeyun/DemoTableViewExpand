@@ -9,7 +9,7 @@
 import UIKit
 
 class ExpandTableViewCell: UITableViewCell {
-  
+  // testLabel -> 上下左右都要配置Constraint
   @IBOutlet weak var testLabel: UILabel!
   @IBOutlet weak var expandButton: UIButton!
   
